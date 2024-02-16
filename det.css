@@ -1,0 +1,68 @@
+
+body {
+    font-family: 'Amiri', serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    background-color: #434343e2; /* Light grey background color */
+   
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.poet-details {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     font-size: 40px;
+}
+
+.poet-name {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.poet-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    text-align: right; /* Align paragraph text to the right */
+    font-size: 20px;
+}
